@@ -1,0 +1,140 @@
+@font-face {
+    font-family: BrandonGrotesqueBold;
+    src: url("../fonts/Brandon Grotesque Bold.otf");
+}
+
+@font-face {
+    font-family: AuxProLight;
+    src: url("../fonts/Aaux Pro Light.ttf");
+}
+
+@font-face {
+    font-family: AuxProLightMedium;
+    src: url("../fonts/Aaux Pro Medium.ttf");
+}
+
+.section {
+    margin-left: 75px;
+    vertical-align: middle;
+    background-size: cover;
+}
+
+#section-01 {
+    background-image: url("../imgs/banner_topo.png");
+}
+
+#section-content-01 {
+  font-family: BrandonGrotesqueBold;
+  text-shadow: 2px 2px 8px #373736;
+  padding: 80px;
+  text-indent: 15%;
+}
+
+#section-content-01 h1, #section-content-01 p, #section-content-01 span {
+  margin: 0;
+  padding: 0;
+}
+
+#section-content-01 h1 {
+    font-size: 8.15rem;
+    color: #FFCE3F;
+}
+
+#section-content-01 p {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+#section-content-01 span {
+  font-size: 2.25rem;
+  color: #FFCE3F;
+}
+
+.title {
+    font-family: BrandonGrotesqueBold;
+}
+
+.subtitle {
+    font-family: AuxProLight;
+}
+
+#section-02 {
+    background-image: url("../imgs/banner_brasil.png");
+}
+
+#section-03 {
+    background-image: url("../imgs/banner_bahia.png");
+}
+
+.slide {
+    background-size: cover;
+}
+
+#slide-01 {
+    background-image: url("../imgs/banner_txai_01.png");
+}
+
+#slide-02 {
+    background-image: url("../imgs/banner_txai_02.png");
+}
+
+#slide-03 {
+    background-image: url("../imgs/banner_txai_03.png");
+}
+
+#slide-04 {
+    background-image: url("../imgs/banner_txai_04.png");
+}
+
+#slide-05 {
+    background-image: url("../imgs/banner_txai_04_1.png");
+}
+
+#slide-06 {
+    background-image: url("../imgs/banner_txai_05.png");
+}
+
+#slide-07 {
+    background-image: url("../imgs/banner_txai_06.png");
+}
+
+#slide-08 {
+    background-image: url("../imgs/banner_txai_06_1.png");
+}
+
+.side-menu {
+    z-index: 99;
+    position: fixed;
+    background-color: white;
+    height: 100%;
+    width: 70px;
+}
+
+.side-menu img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    width: 8px !important;
+    height: 8px !important;
+    margin: -2px 0 0 -2px !important;
+    background: transparent !important;
+    box-sizing: border-box;
+    border: 1px solid #43231C !important;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+    background: #43231C !important;
+}
+
+.fp-controlArrow {
+  padding: 0 50px 0 50px;
+}
+
+#fp-nav ul li:hover .fp-tooltip {
+
+}
